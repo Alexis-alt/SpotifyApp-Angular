@@ -33,7 +33,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/chart.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -127,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "spotiapp"
+  "defaultProject": "spotiapp",
+  "cli": {
+    "analytics": "82cccd23-305f-4d24-a723-4a14c1aa7085"
+  }
 }
